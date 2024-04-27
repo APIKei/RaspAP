@@ -1,0 +1,58 @@
+{
+    "title": "RaspAP WiFi Configuration Portal",
+    "name": "raspap",
+    "version": "2.6",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Simple wireless AP setup & management for Debian-based devices",
+    "keywords": [
+        "raspberry-pi",
+        "hostapd",
+        "raspap",
+        "wifi",
+        "lighttpd",
+        "dnsmasq",
+        "admin",
+        "app"
+    ],
+    "homepage": "https://github.com/raspap/raspap-webgui",
+    "bugs": {
+        "url": "https://github.com/raspap/raspap-webgui/issues"
+    },
+    "license": "GPL-3.0",
+    "author": "RaspAP Developers",
+    "contributors": [
+        "Bill Zimmerman (https://github.com/billz)",
+        "Lawrence Yau (https://github.com/SirLagz)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raspap/raspap-webgui.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.3",
+        "browser-sync": "^2.29.1",
+        "del": "^5.1.0",
+        "gridstack": "^7.2.2",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-header": "^2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-uglify": "^3.0.2",
+        "huebee": "^2.1.1",
+        "jquery": "^3.5.0",
+        "merge-stream": "^2.0.0",
+        "node-gyp": "^7.0.0",
+        "sb-admin-2": "^3.3.8",
+        "startbootstrap-sb-admin-2": "4.1.4"
+    },
+    "devDependencies": {
+        "gulp-sass": "^5.1.0"
+    }
+}

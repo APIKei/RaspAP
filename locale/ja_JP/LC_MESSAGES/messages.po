@@ -1,0 +1,1206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: raspap\n"
+"Report-Msgid-Bugs-To: Bill Zimmerman <billzimmerman@gmail.com>\n"
+"POT-Creation-Date: 2017-10-19 08:56+0000\n"
+"PO-Revision-Date: 2022-01-05 11:43\n"
+"Last-Translator: Bill Zimmerman <billzimmerman@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: raspap\n"
+"X-Crowdin-Project-ID: 395801\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /master/locale/en_US/LC_MESSAGES/messages.po\n"
+"X-Crowdin-File-ID: 10\n"
+
+#: index.php
+msgid "RaspAP Wifi Configuration Portal"
+msgstr "RaspAP Wifi設定ポータル"
+
+msgid "Toggle navigation"
+msgstr "ナビゲーションを切り替え"
+
+msgid "RaspAP Wifi Portal"
+msgstr "RaspAP Wifiポータル"
+
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+msgid "WiFi client"
+msgstr "WiFiクライアント"
+
+msgid "Hotspot"
+msgstr "ホットスポット"
+
+msgid "Memory Use"
+msgstr "メモリ使用率"
+
+msgid "CPU Temp"
+msgstr "CPU温度"
+
+msgid "Networking"
+msgstr "ネットワーク"
+
+msgid "DHCP Server"
+msgstr "DHCPサーバー"
+
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+msgid "TOR proxy"
+msgstr "TORプロキシ"
+
+msgid "Authentication"
+msgstr "認証を構成する"
+
+msgid "Change Theme"
+msgstr "テーマを変更"
+
+msgid "System"
+msgstr "システム"
+
+msgid "About RaspAP"
+msgstr "RaspAPについて"
+
+#: includes/admin.php
+msgid "Authentication settings"
+msgstr "認証の設定"
+
+msgid "New passwords do not match"
+msgstr "新しいパスワードが一致しません"
+
+msgid "Username must not be empty"
+msgstr "ユーザー名は空欄にできません"
+
+msgid "Admin password updated"
+msgstr "管理者パスワードが更新されました"
+
+msgid "Failed to update admin password"
+msgstr "管理者パスワードを更新できませんでした"
+
+msgid "Old password does not match"
+msgstr "古いパスワードが一致しません"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Old password"
+msgstr "古いパスワード"
+
+msgid "New password"
+msgstr "新しいパスワード"
+
+msgid "Repeat new password"
+msgstr "新しいパスワードを繰り返す"
+
+#: includes/configure_client.php
+msgid "Client settings"
+msgstr "クライアントの設定"
+
+msgid "SSID"
+msgstr "SSID"
+
+msgid "Channel"
+msgstr "チャンネル"
+
+msgid "Security"
+msgstr "セキュリティー"
+
+msgid "Passphrase"
+msgstr "パスフレーズ"
+
+msgid "Wifi settings updated successfully"
+msgstr "Wifi設定が正常に更新されました"
+
+msgid "Wifi settings updated but cannot restart (cannot execute 'wpa_cli reconfigure')"
+msgstr "Wifi設定は更新されましたが、再起動できません（「wpa_cli reconfigure」を実行できません）"
+
+msgid "Wifi settings failed to be updated"
+msgstr "Wifi設定の更新に失敗しました"
+
+msgid "Failed to update wifi settings"
+msgstr "WiFi設定を更新できませんでした"
+
+msgid "Rescan"
+msgstr "再スキャン"
+
+msgid "Update"
+msgstr "アップデート"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "Hide"
+msgstr "隠す"
+
+msgid "Not configured"
+msgstr "設定されていません"
+
+msgid "Connected"
+msgstr ""
+
+msgid "Known"
+msgstr ""
+
+msgid "Nearby"
+msgstr ""
+
+msgid "<strong>Note:</strong> WEP access points appear as 'Open'. RaspAP does not currently support connecting to WEP"
+msgstr "<strong>注：</strong> WEPアクセスポイントは「オープン」と表示されます。RaspAPは現在、WEPへの接続をサポートしていません"
+
+msgid "No Wifi stations found"
+msgstr ""
+
+msgid "Reinitializing wpa_supplicant"
+msgstr ""
+
+msgid "Click 'Rescan' to search for nearby Wifi stations."
+msgstr ""
+
+msgid "Click 'Reinitialize' to force reinitialize <code>wpa_supplicant</code>."
+msgstr ""
+
+msgid "Reinitialize"
+msgstr ""
+
+#: includes/dashboard.php
+msgid "Interface Information"
+msgstr "インターフェースの情報"
+
+msgid "Interface Name"
+msgstr "インターフェース名"
+
+msgid "IPv4 Address"
+msgstr "IPv4 アドレス"
+
+msgid "IPv6 Address"
+msgstr "IPv6 アドレス"
+
+msgid "Subnet Mask"
+msgstr "サブネットマスク"
+
+msgid "Mac Address"
+msgstr "Macアドレス"
+
+msgid "Interface Statistics"
+msgstr "インターフェース統計"
+
+msgid "Received Packets"
+msgstr "受診パケット"
+
+msgid "Received Bytes"
+msgstr "受信バイト"
+
+msgid "Transferred Packets"
+msgstr "転送されたパケット"
+
+msgid "Transferred Bytes"
+msgstr "転送されたバイト"
+
+msgid "Wireless Client"
+msgstr "無線クライアント"
+
+msgid "Connected To"
+msgstr "接続"
+
+msgid "AP Mac Address"
+msgstr "AP Macアドレス"
+
+msgid "Bitrate"
+msgstr "ビットレート"
+
+msgid "Signal Level"
+msgstr "信号レベル"
+
+msgid "Transmit Power"
+msgstr "送信電力"
+
+msgid "Frequency"
+msgstr "頻度"
+
+msgid "Link Quality"
+msgstr "リンク品質"
+
+msgid "Information provided by ip and iw and from system"
+msgstr "ipおよびiwおよびシステムから提供される情報"
+
+msgid "No MAC Address Found"
+msgstr "MACアドレスが見つかりません"
+
+msgid "No IP Address Found"
+msgstr "IPアドレスが見つかりません"
+
+msgid "No Subnet Mask Found"
+msgstr "サブネットマスクが見つかりません"
+
+msgid "No Data"
+msgstr "データがありません"
+
+msgid "Not connected"
+msgstr "接続されていません"
+
+msgid "Interface is up"
+msgstr "インターフェースがアップされています"
+
+msgid "Interface is down"
+msgstr "インターフェイスがダウンしています"
+
+msgid "Interface already down"
+msgstr "インターフェースは既にダウンしています"
+
+msgid "Start wlan0"
+msgstr "wlan0を設定"
+
+msgid "Stop wlan0"
+msgstr "wlan0を停止"
+
+msgid "Connected Devices"
+msgstr "接続されたデバイス"
+
+msgid "Client: Ethernet cable"
+msgstr ""
+
+msgid "Ethernet"
+msgstr ""
+
+msgid "Client: Smartphone (USB tethering)"
+msgstr ""
+
+msgid "Smartphone"
+msgstr ""
+
+msgid "WiFi"
+msgstr ""
+
+msgid "Mobile Data Client"
+msgstr ""
+
+msgid "Mobile Data"
+msgstr ""
+
+msgid "No information available"
+msgstr ""
+
+msgid "Interface name invalid"
+msgstr ""
+
+msgid "Required exec function is disabled. Check if exec is not added to php <code>disable_functions</code>."
+msgstr ""
+
+msgid "Waiting for the interface to start ..."
+msgstr ""
+
+msgid "Stop the Interface"
+msgstr ""
+
+msgid "Connection mode"
+msgstr ""
+
+msgid "Signal quality"
+msgstr ""
+
+msgid "WAN IP"
+msgstr ""
+
+msgid "Web-GUI"
+msgstr ""
+
+msgid "Signal strength"
+msgstr ""
+
+msgid "No Client device or not yet configured"
+msgstr ""
+
+#: includes/dhcp.php
+msgid "DHCP server settings"
+msgstr "DHCPサーバーの設定"
+
+msgid "Client list"
+msgstr "クライアントリスト"
+
+msgid "Interface"
+msgstr "インターフェース"
+
+msgid "Enable DHCP for this interface"
+msgstr "このインターフェースでDHCPを有効にする"
+
+msgid "Enable this option if you want RaspAP to assign IP addresses on the selected interface."
+msgstr ""
+
+msgid "DNS Server"
+msgstr "DNSサーバー"
+
+msgid "Starting IP Address"
+msgstr "開始IPアドレス"
+
+msgid "Ending IP Address"
+msgstr "IPアドレスを終了中"
+
+msgid "Static Leases"
+msgstr "静止リース"
+
+msgid "Add static DHCP lease"
+msgstr "静的DHCPリースを追加する"
+
+msgid "Lease Time"
+msgstr "リース時間"
+
+msgid "Interval"
+msgstr "インターバル"
+
+msgid "Active DHCP leases"
+msgstr "アクティブなDHCPリース"
+
+msgid "Expire time"
+msgstr "期限切れ"
+
+msgid "MAC Address"
+msgstr "MACアドレス"
+
+msgid "Optional comment"
+msgstr ""
+
+msgid "Host name"
+msgstr "ホスト名"
+
+msgid "Client ID"
+msgstr "クライアントID"
+
+msgid "Information provided by Dnsmasq"
+msgstr "Dnsmasqが提供する情報"
+
+msgid "Stop dnsmasq"
+msgstr "dnsmasqを停止"
+
+msgid "Start dnsmasq"
+msgstr "dnsmasqを開始"
+
+msgid "Dnsmasq configuration updated successfully"
+msgstr "Dnsmasq構成が正常に更新されました"
+
+msgid "dnsmasq already running"
+msgstr "dnsmasqはすでに実行されています"
+
+msgid "Successfully started dnsmasq"
+msgstr "dnsmasqを正常に開始しました"
+
+msgid "Failed to start dnsmasq"
+msgstr "dnsmasqを開始できませんでした"
+
+msgid "Successfully stopped dnsmasq"
+msgstr "dnsmasqを正常に停止しました"
+
+msgid "Failed to stop dnsmasq"
+msgstr "dnsmasqを停止できませんでした"
+
+msgid "dnsmasq already stopped"
+msgstr "dnsmasqはすでに停止しています"
+
+msgid "Dnsmasq is running"
+msgstr "Dnsmasqが実行されています"
+
+msgid "Dnsmasq is not running"
+msgstr "Dnsmasqが実行されていません"
+
+msgid "Upstream DNS servers"
+msgstr "アップストリームDNSサーバー"
+
+msgid "Only ever query DNS servers configured below"
+msgstr ""
+
+msgid "Enable this option if you want RaspAP to <b>send DNS queries to the servers configured below exclusively</b>. By default RaspAP also uses its upstream DHCP server's name servers."
+msgstr ""
+
+msgid "This option adds <code>no-resolv</code> to the dnsmasq configuration."
+msgstr ""
+
+msgid "Add upstream DNS server"
+msgstr "アップストリームDNSサーバーを追加"
+
+msgid "Format"
+msgstr "書式"
+
+msgid "Choose a hosted server"
+msgstr ""
+
+msgid "Enable these options to log DHCP server activity."
+msgstr ""
+
+msgid "Log DHCP requests"
+msgstr "DHCP要求をログファイルに記録します"
+
+msgid "Log DNS queries"
+msgstr "DNSクエリをログファイルに記録します"
+
+msgid "Restrict access"
+msgstr ""
+
+msgid "Limit network access to static clients"
+msgstr ""
+
+msgid "Enable this option if you want RaspAP to <b>ignore any clients</b> which are not specified in the static leases list."
+msgstr ""
+
+msgid "This option adds <code>dhcp-ignore</code> to the dnsmasq configuration."
+msgstr ""
+
+msgid "Clients with a particular hardware MAC address can always be allocated the same IP address."
+msgstr "指定のMACアドレスを持つクライアントは、常に同じIPアドレスを割り当てることができます。"
+
+msgid "This option adds <code>dhcp-host</code> entries to the dnsmasq configuration."
+msgstr ""
+
+msgid "This toggles the <code>gateway</code>/<code>nogateway</code> option for this interface in the DHCPCD configuration."
+msgstr ""
+
+#: includes/hostapd.php
+msgid "Basic"
+msgstr "基本"
+
+msgid "Advanced"
+msgstr "高度な"
+
+msgid "Basic settings"
+msgstr "基本的な設定"
+
+msgid "Wireless Mode"
+msgstr "ワイヤレスモード"
+
+msgid "Security settings"
+msgstr "セキュリティー設定"
+
+msgid "Security type"
+msgstr "セキュリティ―のタイプ"
+
+msgid "Encryption Type"
+msgstr "暗号化の種類"
+
+msgid "PSK"
+msgstr "PSK"
+
+msgid "Advanced settings"
+msgstr "高度な設定"
+
+msgid "Country Code"
+msgstr "国コード"
+
+msgid "Information provided by hostapd"
+msgstr "hostapdが提供する情報"
+
+msgid "Attempting to start hotspot"
+msgstr "ホットスポットを開始しようとしています"
+
+msgid "Attempting to stop hotspot"
+msgstr "ホットスポットを停止しようとしています"
+
+msgid "HostAPD is not running"
+msgstr "HostAPDが実行されていません"
+
+msgid "HostAPD is running"
+msgstr "HostAPDが実行されています"
+
+msgid "SSID must be between 1 and 32 characters"
+msgstr "SSIDは1〜32文字でなければなりません"
+
+msgid "WPA passphrase must be between 8 and 63 characters"
+msgstr "WPAパスフレーズは8〜63文字でなければなりません"
+
+msgid "Unknown interface"
+msgstr "不明なインターフェース"
+
+msgid "Country code must be blank or two characters"
+msgstr "国コードは空白または2文字でなければなりません"
+
+msgid "Wifi Hotspot settings saved"
+msgstr "Wifiホットスポット設定が保存されました"
+
+msgid "Unable to save wifi hotspot settings"
+msgstr "Wi-Fiホットスポットの設定を保存できません"
+
+msgid "Start hotspot"
+msgstr "ホットスポットを開始"
+
+msgid "Stop hotspot"
+msgstr "ホットスポットを停止"
+
+msgid "Restart hotspot"
+msgstr "ホットスポットを再起動"
+
+msgid "Enable logging"
+msgstr "ロギングを有効にする"
+
+msgid "Logfile output"
+msgstr "ログファイル出力"
+
+msgid "WiFi client AP mode"
+msgstr "WiFiクライアントAPモード"
+
+msgid "Bridged AP mode"
+msgstr "ブリッジAPモード"
+
+msgid "Hide SSID in broadcast"
+msgstr "ブロードキャストでSSIDを非表示"
+
+msgid "Maximum number of clients"
+msgstr "クライアントの最大数"
+
+msgid "Configures the <code>max_num_sta</code> option of hostapd. The default and maximum is 2007. If empty or 0, the default applies."
+msgstr ""
+
+msgid "Beacon interval"
+msgstr "ビーコン間隔"
+
+msgid "Disable <code>disassoc_low_ack</code>"
+msgstr ""
+
+msgid "Do not disassociate stations based on excessive transmission failures."
+msgstr ""
+
+msgid "Executing RaspAP service start"
+msgstr "RaspAPを開始しています。"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Enable this option to log <code>hostapd</code> activity."
+msgstr ""
+
+msgid "Transmit power (dBm)"
+msgstr ""
+
+msgid "Sets the <code>txpower</code> option for the AP interface and the configured country."
+msgstr ""
+
+msgid "dBm is a unit of level used to indicate that a power ratio is expressed in decibels (dB) with reference to one milliwatt (mW). 30 dBm is equal to 1000 mW, while 0 dBm equals 1.25 mW."
+msgstr ""
+
+#: includes/networking.php
+msgid "Summary"
+msgstr "概要"
+
+msgid "Internet connection"
+msgstr "インターネット接続"
+
+msgid "Current settings"
+msgstr "現在の設定"
+
+msgid "Default Gateway"
+msgstr "デフォルトのゲートウェイ"
+
+msgid "Alternate DNS Server"
+msgstr "代替DNSサーバー"
+
+msgid "Adapter IP Address Settings"
+msgstr "アダプタのIPアドレス設定"
+
+msgid "Enable Fallback to Static Option"
+msgstr "静的オプションへのフォールバックを有効にする"
+
+msgid "Static IP"
+msgstr "静止IP"
+
+msgid "Enabled"
+msgstr "有効"
+
+msgid "Disabled"
+msgstr "無効"
+
+msgid "Static IP Options"
+msgstr "静的IPオプション"
+
+msgid "Metric"
+msgstr "メトリック"
+
+msgid "Apply settings"
+msgstr "設定を適用"
+
+msgid "Information provided by /sys/class/net"
+msgstr "/sys/class/netによって提供される情報"
+
+msgid "Network Devices"
+msgstr ""
+
+msgid "Mobile Data Settings"
+msgstr ""
+
+msgid "Properties of network devices"
+msgstr ""
+
+msgid "Device"
+msgstr ""
+
+msgid "MAC"
+msgstr ""
+
+msgid "USB vid/pid"
+msgstr ""
+
+msgid "Device type"
+msgstr ""
+
+msgid "Fixed name"
+msgstr ""
+
+msgid "Change"
+msgstr ""
+
+msgid "Settings for Mobile Data Devices"
+msgstr ""
+
+msgid "PIN of SIM card"
+msgstr ""
+
+msgid "APN Settings (Modem device ppp0)"
+msgstr ""
+
+msgid "Access Point Name (APN)"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Successfully Updated Network Configuration"
+msgstr ""
+
+msgid "Error saving network configuration to file"
+msgstr ""
+
+msgid "Unable to detect interface"
+msgstr ""
+
+#: includes/system.php
+msgid "System Information"
+msgstr "システム情報"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Language settings"
+msgstr "言語の設定"
+
+msgid "Select a language"
+msgstr "言語を選択"
+
+msgid "Language setting saved"
+msgstr "言語の設定が保存されました"
+
+msgid "Console"
+msgstr "コンソール"
+
+msgid "Hostname"
+msgstr "ホスト名"
+
+msgid "Pi Revision"
+msgstr "Piリビジョン"
+
+msgid "Uptime"
+msgstr "アップタイム"
+
+msgid "Memory Used"
+msgstr "使用メモリ"
+
+msgid "CPU Load"
+msgstr "CPU負荷"
+
+msgid "Reboot"
+msgstr "リブート"
+
+msgid "Shutdown"
+msgstr "シャットダウン"
+
+msgid "System Rebooting Now!"
+msgstr "システムを再起動しています！"
+
+msgid "System Shutting Down Now!"
+msgstr "システムのシャットダウン中！"
+
+msgid "Web server port"
+msgstr "Webサーバーの使用ポート"
+
+msgid "Web server bind address"
+msgstr "Webサーバーのバインドアドレス"
+
+#: includes/themes.php
+msgid "Theme settings"
+msgstr "テーマ設定"
+
+msgid "Select a theme"
+msgstr "テーマを変更"
+
+msgid "Color"
+msgstr "色"
+
+#: includes/data_usage.php
+msgid "Data usage"
+msgstr "データ使用量"
+
+msgid "Data usage monitoring"
+msgstr "データ使用量のモニタリング"
+
+msgid "Hourly traffic amount"
+msgstr "毎時のトラフィック量"
+
+msgid "Daily traffic amount"
+msgstr "1日のトラフィック量"
+
+msgid "Monthly traffic amount"
+msgstr "月間のトラフィック量"
+
+msgid "Hourly"
+msgstr "毎時"
+
+msgid "Daily"
+msgstr "毎日"
+
+msgid "Monthly"
+msgstr "月間"
+
+msgid "interface"
+msgstr "インターフェース"
+
+msgid "date"
+msgstr "日付け"
+
+msgid "Send MB"
+msgstr "MBを送信"
+
+msgid "Receive MB"
+msgstr "受信MB"
+
+msgid "Information provided by vnstat"
+msgstr "vnstatが提供する情報"
+
+msgid "Loading {0} bandwidth chart"
+msgstr "{0}の帯域幅チャートを読み込んでいます"
+
+msgid "Showing {0} to {1} of {2} entries"
+msgstr "{2}のエントリーのうち{0}〜{1}を表示しています"
+
+#: includes/openvpn.php
+msgid "OpenVPN is not running"
+msgstr "OpenVPNが実行されていません"
+
+msgid "OpenVPN is running"
+msgstr "OpenVPNが実行されています"
+
+msgid "Server settings"
+msgstr "サーバー設定"
+
+msgid "Select OpenVPN configuration file (.ovpn)"
+msgstr "OpenVPN構成ファイル（.ovpn）を選択"
+
+msgid "Client Log"
+msgstr "クライアントログ"
+
+msgid "Port"
+msgstr "ポート"
+
+msgid "Protocol"
+msgstr "プロトコル"
+
+msgid "Root CA certificate"
+msgstr "ルートCAの証明書"
+
+msgid "Server certificate"
+msgstr "サーバー認証"
+
+msgid "Diffie Hellman parameters"
+msgstr "Diffie Hellmanパラメーター"
+
+msgid "KeepAlive"
+msgstr "キープアライブ"
+
+msgid "Server log"
+msgstr "サーバーログ"
+
+msgid "Start OpenVPN"
+msgstr "OpenVPNを開始"
+
+msgid "Stop OpenVPN"
+msgstr "OpenVPNを停止"
+
+msgid "Information provided by openvpn"
+msgstr "openvpnが提供する情報"
+
+msgid "Attempting to start openvpn"
+msgstr "openvpnを開始しようとしています"
+
+msgid "Attempting to stop openvpn"
+msgstr "openvpnを停止しようとしています"
+
+msgid "Configurations"
+msgstr "設定"
+
+msgid "Currently available OpenVPN client configurations are displayed below."
+msgstr "現在利用可能なOpenVPNクライアント設定は以下の通りです。"
+
+msgid "Activating a configuraton will restart the <code>openvpn-client</code> service."
+msgstr "設定を有効にすると、 <code>Openvpn-Client</code>サービスが再起動します。"
+
+msgid "Delete OpenVPN client"
+msgstr "OpenVPNクライアントを削除"
+
+msgid "Delete client configuration? This cannot be undone."
+msgstr "クライアント設定を削除しますか？この操作は元に戻すことはできません。"
+
+msgid "Activate OpenVPN client"
+msgstr "OpenVPNクライアントを有効化"
+
+msgid "Activate client configuration? This will restart the openvpn-client service."
+msgstr "設定を反映しますか？設定を反映するためにOpenvpn-Clientサービスを再起動します。"
+
+msgid "Activate"
+msgstr "アクティブ化"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Enable this option to log <code>openvpn</code> activity."
+msgstr "このオプションを有効にすると <code>OpenVPN</code>のログを記録します。"
+
+msgid "Authentification Method"
+msgstr "認証方法"
+
+msgid "Username and password"
+msgstr "ユーザー名とパスワード"
+
+msgid "Certificates"
+msgstr "証明書"
+
+msgid "Enter username and password"
+msgstr "あなたのユーザー名とパスワードを入力してください"
+
+msgid "Certificates in the configuration file"
+msgstr ""
+
+msgid "RaspAP supports certificates by including them in the configuration file."
+msgstr "RaspAPは証明書を設定ファイルに含めることによって証明書による認証をサポートします。"
+
+msgid "Signing certification authority (CA) certificate (e.g. <code>ca.crt</code>): enclosed in <code>&lt;ca> ... &lt;/ca></code> tags."
+msgstr "認証局に署名する(CA) 証明書(例: <code>ca.crt</code>): <code>&lt;ca> ... &lt;/ca></code>タグの中に記載する。"
+
+msgid "Client certificate (public key) (e.g. <code>client.crt</code>): enclosed in <code>&lt;cert> ... &lt;/cert></code> tags."
+msgstr "公開鍵（public key） (例: <code>client.crt</code>): <code>&lt;cert> ... &lt;/cert></code>タグの中に記載する。"
+
+msgid "Private key of the client certificate (e.g. <code>client.key</code>): enclosed in <code>&lt;key> ... &lt;/key></code> tags."
+msgstr "クライアントの秘密鍵（例 <code>client.key</code>): <code>&lt;key> ... &lt;/key></code>タグの中に記載する。"
+
+msgid "Configuration File"
+msgstr "設定ファイル"
+
+#: includes/torproxy.php
+msgid "TOR is not running"
+msgstr "TORが実行されていません"
+
+msgid "TOR is running"
+msgstr "TORが実行されています"
+
+msgid "Relay"
+msgstr "リレー"
+
+msgid "Relay settings"
+msgstr "リレー設定"
+
+msgid "Nickname"
+msgstr "ニックネーム"
+
+msgid "Address"
+msgstr "アドレス"
+
+msgid "Start TOR"
+msgstr "TORを開始"
+
+msgid "Stop TOR"
+msgstr "TORを停止"
+
+msgid "Information provided by tor"
+msgstr "torが提供する情報"
+
+msgid "Attempting to start TOR"
+msgstr "TORを実行しようとしています"
+
+msgid "Attempting to stop TOR"
+msgstr "TORを停止しようとしています"
+
+#: template/dashboard.php
+msgid "Bridged AP mode is enabled. For Hostname and IP, see your router's admin page."
+msgstr "ブリッジAPモードが有効になっています。ホスト名とIPアドレスは、ルーターの管理ページを参照してください。"
+
+#: common form controls
+msgid "Save settings"
+msgstr "設定を保存"
+
+msgid "Refresh"
+msgstr "リフレッシュ"
+
+msgid "running"
+msgstr "実行中"
+
+msgid "stopped"
+msgstr "停止"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "up"
+msgstr "上"
+
+msgid "down"
+msgstr "下"
+
+msgid "adblock"
+msgstr "adblock"
+
+msgid "Ad Blocking"
+msgstr "広告ブロック"
+
+msgid "Start Ad Blocking"
+msgstr "広告ブロックを開始する"
+
+msgid "Restart Ad Blocking"
+msgstr "広告ブロックを再開する"
+
+msgid "Blocklist settings"
+msgstr "ブロックリストの設定"
+
+msgid "Enable blocklists"
+msgstr "ブロックリストを有効にする"
+
+msgid "Enable this option if you want RaspAP to <b>block DNS requests for ads, tracking and other virtual garbage</b>. Blocklists are gathered from multiple, actively maintained sources and automatically updated, cleaned, optimized and moderated on a daily basis."
+msgstr ""
+
+msgid "This option adds <code>conf-file</code> and <code>addn-hosts</code> to the dnsmasq configuration."
+msgstr ""
+
+msgid "Choose a blocklist provider"
+msgstr ""
+
+msgid "Hostnames blocklist last updated"
+msgstr "ホスト名のブロックリストの最終更新"
+
+msgid "Domains blocklist last updated"
+msgstr "ドメインのブロックリストの最終更新"
+
+msgid "Update now"
+msgstr "今すぐ更新する"
+
+msgid "Statistics"
+msgstr "統計"
+
+msgid "Information provided by adblock"
+msgstr "adblockが提供する情報"
+
+msgid "Enable custom blocklist"
+msgstr "カスタムブロックリストを有効にする"
+
+msgid "Define custom hosts to be blocked by entering an IPv4 or IPv6 address followed by any whitespace (spaces or tabs) and the host name."
+msgstr ""
+
+msgid "<b>IPv4 example:</b> 0.0.0.0 badhost.com"
+msgstr "<b>IPv4の例:</b> 0.0.0.0 badhost.com"
+
+msgid "This option adds an <code>addn-hosts</code> directive to the dnsmasq configuration."
+msgstr ""
+
+msgid "Custom blocklist not defined"
+msgstr "カスタムブロックリストが設定されていません。"
+
+msgid "Invalid custom IP address found on line "
+msgstr "無効なカスタムIPアドレスが見つかりました "
+
+msgid "Invalid custom host found on line "
+msgstr "無効なカスタムホスト名が見つかりました "
+
+msgid "Tunnel settings"
+msgstr "トンネルの設定"
+
+msgid "Configuration Method"
+msgstr ""
+
+msgid "Upload file"
+msgstr ""
+
+msgid "Create manually"
+msgstr ""
+
+msgid "Upload a WireGuard config"
+msgstr ""
+
+msgid "This option uploads and installs an existing WireGuard <code>.conf</code> file on this device."
+msgstr ""
+
+msgid "Apply iptables rules for AP interface"
+msgstr ""
+
+msgid "Recommended if you wish to forward network traffic from the wg0 interface to clients connected on the AP interface."
+msgstr ""
+
+msgid "This option adds <strong>iptables</strong> <code>Postup</code> and <code>PostDown</code> rules for the configured AP interface (%s)."
+msgstr ""
+
+msgid "Select WireGuard configuration file (.conf)"
+msgstr ""
+
+msgid "Create a local WireGuard config"
+msgstr ""
+
+msgid "Enable server"
+msgstr "サーバーを有効化"
+
+msgid "Enable this option to secure network traffic by creating an encrypted tunnel between RaspAP and configured peers."
+msgstr ""
+
+msgid "This setting generates a new WireGuard <code>.conf</code> file on this device."
+msgstr ""
+
+msgid "Local public key"
+msgstr "ローカル公開鍵"
+
+msgid "Local Port"
+msgstr "ローカルポート番号"
+
+msgid "IP Address"
+msgstr "IPアドレス"
+
+msgid "DNS"
+msgstr "DNS"
+
+msgid "Peer"
+msgstr "ピア"
+
+msgid "Enable peer"
+msgstr "ピアの有効化"
+
+msgid "Enable this option to encrypt traffic by creating a tunnel between RaspAP and this peer."
+msgstr ""
+
+msgid "This option adds <code>client.conf</code> to the WireGuard configuration."
+msgstr ""
+
+msgid "Peer public key"
+msgstr "ピア公開鍵"
+
+msgid "Endpoint address"
+msgstr "エンドポイントのアドレス"
+
+msgid "Allowed IPs"
+msgstr "許可されたIPアドレス"
+
+msgid "Persistent keepalive"
+msgstr ""
+
+msgid "Enable this option to display an updated <code>wg-quick</code> debug log."
+msgstr ""
+
+msgid "WireGuard debug log updated"
+msgstr ""
+
+msgid "Scan this QR code with your client to connect to this tunnel"
+msgstr "接続したいデバイスで、このQRコードをスキャンしてトンネルに接続します。"
+
+msgid "or download the <code>client.conf</code> file to your device."
+msgstr "または <code>client.conf</code>ファイルをダウンロードしてください。"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Start WireGuard"
+msgstr "WireGuardを開始"
+
+msgid "Stop WireGuard"
+msgstr "WireGuardを終了"
+
+msgid "Information provided by wireguard"
+msgstr "WireGuardが提供する情報"
+
+msgid "Attempting to start WireGuard"
+msgstr "WireGuardを開始中です。"
+
+msgid "Attempting to stop WireGuard"
+msgstr "WireGuardを停止中です。"
+
+msgid "WireGuard configuration updated successfully"
+msgstr "WireGuardの設定が正常に更新されました"
+
+msgid "WireGuard configuration failed to be updated"
+msgstr "WireGuardの設定を更新できませんでした"
+
+msgid "Client Firewall"
+msgstr ""
+
+msgid "Firewall is ENABLED"
+msgstr ""
+
+msgid "Firewall is OFF"
+msgstr ""
+
+msgid "The default firewall will only allow outgoing and already established traffic."
+msgstr ""
+
+msgid "No incoming UDP traffic is allowed."
+msgstr ""
+
+msgid "There are no restrictions for the access point <code>%s</code>."
+msgstr ""
+
+msgid "Exception: Service"
+msgstr ""
+
+msgid "allow SSH access on port 22"
+msgstr ""
+
+msgid "allow access to the RaspAP GUI on port 80 or 443"
+msgstr ""
+
+msgid "Allow incoming connections for some services from the internet side."
+msgstr ""
+
+msgid "Exception: network device"
+msgstr ""
+
+msgid "Exclude device(s)"
+msgstr ""
+
+msgid "Exclude the given network device(s) (separated by a blank or comma) from firewall rules."
+msgstr ""
+
+msgid "Current client devices: <code>%s</code>"
+msgstr ""
+
+msgid "The access point <code>%s</code> is per default excluded."
+msgstr ""
+
+msgid "Exception: IP-Address"
+msgstr ""
+
+msgid "Allow incoming connections from"
+msgstr ""
+
+msgid "For the given IP-addresses (separated by a blank or comma) the incoming connection (via TCP and UDP) is accepted."
+msgstr ""
+
+msgid "This is required for an OpenVPN via UDP or Wireguard connection."
+msgstr ""
+
+msgid "The list of configured VPN server IP addresses: <code><b>%s</b></code>"
+msgstr ""
+
+msgid "Disable Firewall"
+msgstr ""
+
+msgid "Enable Firewall"
+msgstr ""
+
+msgid "Apply changes"
+msgstr ""
+
